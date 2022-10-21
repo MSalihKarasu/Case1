@@ -15,7 +15,7 @@ const HomeScreen = () => {
     const sembol = [
         { key: '0', value: 'ACSEL' },
         { key: '1', value: 'GARAN' },
-        { key: '2', value: 'ADEL' },
+        { key: '2', value: 'GARAN' },
         { key: '3', value: 'PRKABTE' },
         { key: '4', value: 'DENCM' },
     ];
