@@ -34,7 +34,7 @@ export default DetailScreen = () => {
 
                     var gelendegerler=response.Pivot_Degerleri[0];
                   
-                  // console.log("jkjkjkjkjjkj", gelendegerler);
+                   console.log("jkjkjkjkjjkj", gelendegerler);
                    //Gelen objeyi diziye dönüstürüyoruz.
 
                    const array = Object.values( gelendegerler);
