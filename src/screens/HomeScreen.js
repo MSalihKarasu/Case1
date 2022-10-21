@@ -9,7 +9,7 @@ const HomeScreen = () => {
     const [selected, setSelected] = React.useState([]);
     const [selected1, setselected1] = React.useState([]);
     const [selected2, setselected2] = React.useState([]);
-
+ 
     const navigation = useNavigation();
 
     const sembol = [
