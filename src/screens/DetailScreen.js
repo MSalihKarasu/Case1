@@ -29,7 +29,7 @@ export default DetailScreen = () => {
                  
               
                
-                    //console.log("sonucları listele", response.Pivot_Degerleri[0]);
+                    console.log("sonucları listele", response.Pivot_Degerleri[0]);
                     //console.log("ghghghghghghghgh",response.Pivot_Degerleri.length);
 
                     var gelendegerler=response.Pivot_Degerleri[0];
@@ -38,7 +38,7 @@ export default DetailScreen = () => {
                    //Gelen objeyi diziye dönüstürüyoruz.
 
                    const array = Object.values( gelendegerler);
-                   console.log("tytytytytyty", array[0]);
+                   //console.log("tytytytytyty", array[0]);
                         setData(array);
                        
 
